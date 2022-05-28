@@ -63,7 +63,7 @@ li:nth-child(even){
 
 li:nth-child(2n+1){
 
-    /*
+    /* NOTE
     nth-child(an+b)
     a = cycle size
     n = counter (dari 0)
@@ -74,4 +74,5 @@ li:nth-child(2n+1){
     background-image: linear-gradient(to right,skyblue, white);
     opacity: 0.9;/* ada opaciti kambing */
     border: 2px solid skyblue;
+
 }
