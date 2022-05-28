@@ -1,3 +1,3 @@
 # Percobaan-html
 
-Untuk coba coba HTML dan kawan kawan
+Untuk coba coba HTML, CSS dan kawan kawan
