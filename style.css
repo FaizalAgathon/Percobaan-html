@@ -9,28 +9,43 @@
     box-shadow: 0px 0px 5px skyblue,5px 5px 5px blue;}
 
 
-#box1{
+p{
+    width: 100px;
+    background: red;
+    font-size: 85px;
     text-align: center;
-
-    position: relative ;
-    background-color: lightgrey;
-    width: 200px;    
-    height: 200px;
-    border: 1px solid ;
-
-    top: 100px;
-
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
 }
 
-#box2{
-    position: absolute;
-    background-color: grey;
-    width: 100px;    
-    height: 100px;
-    border: 1px solid ;
+#p1{
 
-    top: 50px;
-    left: 50px;
+}
+
+#p2{/*
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px,50px);*/
+    /*
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);*/
+    /*
+    transform: scaleX(2);
+    transform: scaleY(0.5);
+    transform: scaleZ(2,2);*/
+    /*
+    transform: skewY(45deg);
+    transform: skewX(45deg);*/
+
+
+    transform: matrix(0,0,0,0,0,0);
+
+    /*
+        scaleX(),
+        skewY(),
+        skewX(),
+        scaleY(),
+        translateX();
+        translateY();
+    */
 }
