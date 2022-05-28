@@ -1,25 +1,20 @@
-html{
-    margin: -8px 0 0 -8px;
-}
-
 h1{
-    border: 1px solid;
-    width: 300px;
-    margin: 0 0 0 0;
+    margin: 200px auto;
+    width: fit-content;
+    /*padding: 200px 0 200px 0;*/
+    border:1px solid;
+    background-color: black;
+    color: cyan;
+
+    text-shadow: 0px 0px 5px skyblue,5px 5px 5px blue;
+    box-shadow: 0px 0px 5px skyblue,5px 5px 5px blue;
 }
 
 p{
-    border: 1px solid;
-    padding: 25px;
-    width: 250px;
-}
-
-#p1{
-    margin: 10px 75px 25px 75px;
-}
-
-#p2{
-    text-align: center;
-    width: 250px;
+    padding:200px;
+    width: 500px;
     margin: auto;
+
 }
+
+
